@@ -9,7 +9,8 @@ const webpackConfig = merge(baseConfig, {
     devServer:{
         host:'0.0.0.0',
         port:'3333',
-        open: true,
+        open: false,
+        hot:true,
         headers: {
             "Access-Control-Allow-Origin": "*"
         },
